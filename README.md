@@ -1,69 +1,41 @@
-# Weather App
+Welcome to the Todo List App!
+This application allows users to manage their todo list by adding, deleting, updating, and searching for tasks. The application also supports saving data locally using the browser's local storage feature.
 
-Welcome to the Weather App! This application allows users to check the weather conditions by entering the name of the city. 
-
-## Features
-
-- Get real-time weather data by entering the city name
-- Display temperature, weather condition, wind speed, and humidity
-- Beautifully designed interface using Bootstrap 5
-- Utilizes ES6 functionalities for modern JavaScript development
-- Enhances performance with lodash library
-
-- Built With
-React - The JavaScript library used for building the UI.
-Bootstrap 5 - The CSS framework used for styling.
-lodash - JavaScript utility library for manipulating arrays, objects, and functions.
-ES6 - Utilized modern JavaScript features for development.
-
-## Getting Started
-
+Features
+Add new tasks to the todo list
+Delete tasks from the todo list
+Update task names
+Mark tasks as completed or incomplete
+Search for tasks by name
+Save todo list data locally using browser's local storage
+Technologies Used
+React: JavaScript library used for building the UI.
+Bootstrap: CSS framework used for styling.
+ES6: Utilized modern JavaScript features for development.
+Getting Started
 To get a copy of the project up and running on your local machine for development and testing purposes, follow these steps:
 
-### Prerequisites
+Prerequisites
+Node.js and npm installed on your machine
+Installing
+Clone the repository to your local machine:
+bash
+Copy code
+git clone https://github.com/yourusername/todo-list-app.git
+Navigate to the project directory:
+bash
+Copy code
+cd todo-list-app
+Install dependencies:
+Copy code
+npm install
+Setting up
+To enable local storage for the Todo list app, no additional setup is required. The app automatically saves data to the browser's local storage.
 
-- Node.js and npm installed on your machine
-
-### Installing
-
-1. Clone the repository to your local machine:
-
-    ```bash
-    git clone https://github.com/yourusername/weather-app.git
-    ```
-
-2. Navigate to the project directory:
-
-    ```bash
-    cd weather-app
-    ```
-
-3. Install dependencies:
-
-    ```bash
-    npm install
-    ```
-
-### Setting up API Key
-
-To access weather data, you need to obtain an API key from a weather data provider (e.g., OpenWeatherMap, AccuWeather).
-
-1. Create a `.env` file in the root directory of your project.
-
-2. Add your API key to the `.env` file:
-
-    ```
-    REACT_APP_API_KEY=your_api_key_here
-    ```
-
-    Replace `your_api_key_here` with your actual API key.
-
-### Running the Project
-
+Running the Project
 To run the project locally:
 
-```bash
+sql
+Copy code
 npm start
-
-
-
+Now, you can access the Todo list app in your web browser. Your data will be automatically saved locally using the browser's local storage feature.
