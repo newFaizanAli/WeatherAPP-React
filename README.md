@@ -21,37 +21,43 @@ The Weather App is a modern web application that allows users to check the weath
 - **ES6:** Utilizes ES6 features for cleaner and more concise code.
 - **Form Handling:** Uses Formik and Yup for form control and validation.
 
-## Getting Started
+### Installing
 
-To get started with the Weather App locally, follow these steps:
+1. Clone the repository to your local machine:
 
-1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/weather-app.git
+    ```
 
-   ```bash
-   git clone https://github.com/yourusername/weather-app.git
-Navigate to the project directory:
+2. Navigate to the project directory:
 
-bash
-Copy code
-cd weather-app
-Install dependencies:
+    ```bash
+    cd weather-app
+    ```
 
-bash
-Copy code
-npm install
-Set up API key:
+3. Install dependencies:
 
-Create a .env file in the root directory.
+    ```bash
+    npm install
+    ```
 
-Add your API key:
+### Setting up API Key
 
-makefile
-Copy code
-REACT_APP_API_KEY=your_api_key_here
-Replace your_api_key_here with your actual API key.
+To access weather data, you need to obtain an API key from a weather data provider (e.g., OpenWeatherMap, AccuWeather).
 
-Run the app:
+1. Create a `.env` file in the root directory of your project.
 
-bash
-Copy code
+2. Add your API key to the `.env` file:
+
+    ```
+    REACT_APP_API_KEY=your_api_key_here
+    ```
+
+    Replace `your_api_key_here` with your actual API key.
+
+### Running the Project
+
+To run the project locally:
+
+```bash
 npm start
