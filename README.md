@@ -26,7 +26,7 @@ The Weather App is a modern web application that allows users to check the weath
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone https://github.com/yourusername/weather-app.git
+    git clone https://github.com/newFaizanAli/weather-app.git
     ```
 
 2. Navigate to the project directory:
